@@ -2,18 +2,47 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title style="color: burlywood">poop</title>
+    <title style="color: burlywood">pooooo :D</title>
+
+    <style>
+      *{
+        cursor: default;
+      }
+
+      body{
+        background-color: red;
+        height: 100%;
+        -webkit-user-select: none;
+        -webkit-app-region: drag;
+      }
+
+      select{
+        -webkit-app-region: no-drag;
+      }
+    </style>
+
   </head>
   <body>
-    <h1 style="color:brown">DUPA</h1>
+    <h1 style="color:brown">Test</h1>
     <!-- All of the Node.js APIs are available in this renderer process. -->
     We are using Node.js <script>document.write(process.versions.node)</script>,
     Chromium <script>document.write(process.versions.chrome)</script>,
     and Electron <script>document.write(process.versions.electron)</script>.
+    <br>
+    <div>
+      <textarea></textarea>
+    </div>
 
     <script>
       // You can also require other files to run in this process
       require('./renderer.js')
     </script>
+
+
+    <select>
+      <option value="option01">ONE</option>
+      <option value="option02">TWO</option>
+      <option value="option03">THREE</option>
+    </select>
   </body>
 </html>
